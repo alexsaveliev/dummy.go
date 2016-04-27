@@ -1,6 +1,10 @@
 ﻿package main
 
-func foobar(a string) {
+func foobar(a string) /* комментарий */ {    
+    /* еще
+       один
+       комментарий 
+    */ println(a)
 }
 
 func main() {
